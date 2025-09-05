@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PayPal Invoice</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+    .container {
+      position: relative;
+      width: 80%;
+      max-width: 600px;
+      min-height: 700px; /* Adjust based on image height */
+      background: url('1.png') no-repeat center center;
+      background-size: contain;
+      padding: 20px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    .contact-number {
+      position: absolute;
+      bottom: 190px; /* Adjust this value to align with the image's phone number position */
+      right: 130px; /* Adjust this value to align with the image's phone number position */
+      color: #ff0000;
+      font-weight: bold;
+      font-size: 16px;
+    }
+    .contact-number a {
+      color: #ff0000;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="contact-number">
+   <a href="tel:+1-808-857-5090">___________</a>
+    </div>
+  </div>
+</body>
+</html>
